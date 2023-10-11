@@ -20,7 +20,7 @@ namespace CW10_C_Sharp
         {
             if(isClick)
             {
-                MyClickButton.Invoke();
+                MyClickButton?.Invoke();
             }
         }
     }
